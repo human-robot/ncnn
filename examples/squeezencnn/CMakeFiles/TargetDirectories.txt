@@ -1,0 +1,3 @@
+/home/melchior/Documents/ncnn/examples/squeezencnn/CMakeFiles/fasterrcnn.dir
+/home/melchior/Documents/ncnn/examples/squeezencnn/CMakeFiles/squeezenet.dir
+/home/melchior/Documents/ncnn/examples/squeezencnn/ssd/CMakeFiles/ssdmobilenet.dir

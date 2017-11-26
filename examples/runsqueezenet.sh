@@ -1,1 +1,1 @@
-../build/examples/squeezenet ~/Documents/data/demo/cat.jpg 
+../build/examples/squeezenet  ../data/cat1.jpg 

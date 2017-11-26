@@ -23,7 +23,7 @@ set(CMAKE_BUILD_TYPE release)
 option(NCNN_OPENMP "openmp support" ON)
 option(NCNN_STDIO "load model from external file" ON)
 option(NCNN_STRING "plain and verbose string" ON)
-option(NCNN_OPENCV "minimal opencv structure emulation" OFF)
+option(NCNN_OPENCV "minimal opencv structure emulation" ON)
 
 if(NCNN_OPENMP)
     find_package(OpenMP)
@@ -54,6 +54,9 @@ elseif(IOS)
 endif()
 
 ##############################################
+
+set(OpenCV_DIR  /home/mli/opencv-3.3.1/build)
+find_package(OpenCV REQUIRED)
 
 add_subdirectory(examples)
 add_subdirectory(src)

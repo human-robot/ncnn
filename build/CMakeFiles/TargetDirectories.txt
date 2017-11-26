@@ -1,0 +1,6 @@
+/home/melchior/Documents/ncnn/build/tools/CMakeFiles/caffe2ncnn.dir
+/home/melchior/Documents/ncnn/build/examples/CMakeFiles/fasterrcnn.dir
+/home/melchior/Documents/ncnn/build/src/CMakeFiles/ncnn.dir
+/home/melchior/Documents/ncnn/build/tools/CMakeFiles/ncnn2mem.dir
+/home/melchior/Documents/ncnn/build/examples/CMakeFiles/squeezenet.dir
+/home/melchior/Documents/ncnn/build/examples/ssd/CMakeFiles/ssdmobilenet.dir

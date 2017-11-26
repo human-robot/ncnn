@@ -17,6 +17,7 @@
 #include <vector>
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc.hpp>
 
 #include <iostream> //lj
 
@@ -131,6 +132,8 @@ int main(int argc, char** argv)
     {
 	    /* cursor */
 	    cv::putText(m,labels[index[i]], Point(50,50+30*i),CV_FONT_HERSHEY_SIMPLEX,1.2,Scalar(0,100,200),2,8);
+	    
+	    
     }
     namedWindow("classification",WINDOW_NORMAL);
     imshow("classification",m);

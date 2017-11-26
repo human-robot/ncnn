@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../tools/../src/layer.h
+stdio.h
+-
+string
+-
+vector
+-
+mat.h
+../tools/../src/mat.h
+platform.h
+../tools/../src/platform.h
+
+../tools/../src/mat.h
+stdlib.h
+-
+string.h
+-
+intrin.h
+-
+
+/home/melchior/Documents/ncnn/tools/ncnn2mem.cpp
+ctype.h
+-
+stdio.h
+-
+string.h
+-
+cstddef
+-
+string
+-
+vector
+-
+layer.h
+/home/melchior/Documents/ncnn/tools/layer.h
+
+tools/../src/platform.h
+
